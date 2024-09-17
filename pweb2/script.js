@@ -29,6 +29,11 @@ function modificarDiv() {
     contentDiv.appendChild(paragrafo);
 }
 
+function alterarcor(){
+    let link = document.getElementById("myLink")
+    link.style.color = "red"
+}
+
 function adicionarBloco() {
         const newDiv = document.createElement('div');
         newDiv.innerHTML = `
